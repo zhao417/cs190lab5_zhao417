@@ -12,6 +12,7 @@ public class LabTemplate{
     // we can retrieve content from some website here
     // We need to ensure that we use a url that starts with https
     String url = "https://api.github.com/zen";
+
     // We can print out the contents of any https site now!
     System.out.println( enlightenMe(url) );
   }
